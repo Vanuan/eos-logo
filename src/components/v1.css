@@ -1,0 +1,69 @@
+@import url("animations.css");
+
+:root {
+    --color-echo: rgba(
+        164,
+        68,
+        233,
+        0.5
+    ); /* Increased opacity for visibility */
+    --color-echo-fade: rgba(164, 68, 233, 0.45); /* Increased opacity */
+    --color-void-border: rgba(87, 16, 137, 0.84); /* Increased opacity */
+    --color-void-shadow: rgba(164, 68, 233, 0.9); /* Increased opacity */
+    --color-background: black;
+}
+/*
+@keyframes pulse {
+    0% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 0.8;
+    }
+    50% {
+        transform: translate(-50%, -50%) scale(1.05);
+        opacity: 0.4;
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 0.8;
+    }
+} */
+@keyframes pulse {
+    0%,
+    100% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 0.8;
+    }
+    50% {
+        transform: translate(-50%, -50%) scale(1.1);
+        opacity: 0.6;
+    }
+}
+
+@keyframes rotate {
+    from {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    to {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+@font-face {
+    font-family: "Alice";
+    src:
+        local("Alice"),
+        url("alice-bc.woff") format("woff");
+}
+@font-face {
+    font-family: "Baumans";
+    src:
+        local("Baumans"),
+        url("baumans.woff") format("woff");
+}
+
+:root {
+    --color-echo: #a444e9;
+    --color-echo-fade: rgba(164, 68, 233, 0.5);
+    --color-void-border: #a444e9;
+    --color-void-shadow: rgba(164, 68, 233, 0.3);
+}

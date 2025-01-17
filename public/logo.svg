@@ -1,0 +1,16 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="256" cy="256" r="256" fill="#1a1a1a"/>
+
+  <!-- Echo rings - just two main rings now -->
+  <g fill="none" stroke="#d4a5ff" stroke-width="12">
+    <circle cx="256" cy="256" r="190" opacity="0.9"/>
+    <circle cx="256" cy="256" r="120" opacity="0.8"/>
+  </g>
+
+  <!-- Central void - made slightly larger -->
+  <circle cx="256" cy="256" r="50" fill="#1a1a1a" stroke="#d4a5ff" stroke-width="12"/>
+
+  <!-- Outer border -->
+  <circle cx="256" cy="256" r="252" fill="none" stroke="#d4a5ff" stroke-width="8"/>
+</svg>
