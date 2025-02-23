@@ -1,9 +1,9 @@
 {
-  "name": "My PWA",
-  "short_name": "PWA",
+  "name": "Echoes of the Spaces",
+  "short_name": "EOS",
   "start_url": "/",
   "display": "fullscreen",
-  "theme_color": "#000000",
+  "theme_color": "#1E90FF",
   "background_color": "#ffffff",
   "icons": [
     {
